@@ -18,17 +18,9 @@
 #
 ################################################################################
 
-cmake_minimum_required(VERSION 2.8)
+cmake_minimum_required(VERSION 2.8.8)
 
-# Search and include CTK
-find_package(CTK)
-if (NOT CTK_FOUND)
-  message(FATAL_ERROR "CTK not found, set CTK_DIR to the CTK superbuild directory.")
-endif()
-include(${CTK_USE_FILE})
-
-# Include CTK's Qt directories
-find_package(Qt4)
-include(${QT_USE_FILE})
+project(Examples)
 
 add_subdirectory(Example1)
+
