@@ -24,8 +24,8 @@
 #include <QVBoxLayout>
 
 // CTK includes
-#include <ctkCollapsibleButton.h>
 #include <ctkCheckablePushButton.h>
+#include <ctkCollapsibleButton.h>
 #include <ctkColorPickerButton.h>
 #include <ctkRangeWidget.h>
 

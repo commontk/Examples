@@ -18,12 +18,16 @@
 #
 ################################################################################
 
-include_directories(
-  ${CTK_INCLUDE_DIRS}
-  )
+cmake_minimum_required(VERSION 2.8.8)
 
-# Create executable
+project(Example1)
+
+find_package(CTK REQUIRED)
+include(${CTK_USE_FILE})
+
+find_package(Qt4 REQUIRED)
+include(${QT_USE_FILE})
+
 add_executable(example1 main.cpp)
+target_link_libraries(example1 CTKWidgets)
 
-# Link the demo with CTK libraries
-target_link_libraries(example1 ${CTK_LIBRARIES})
