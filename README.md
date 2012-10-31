@@ -28,3 +28,12 @@ Build Instructions
 ```
 ~/work/Examples-build$ ./Example1/example1
 ```
+
+Help
+----
+
+More information on the CommonToolkit webpage:
+* http://www.commontk.org
+
+Ask your questions on the CTK developer mailing list:
+* http://public.kitware.com/cgi-bin/mailman/listinfo/ctk-developers
